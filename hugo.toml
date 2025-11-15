@@ -7,7 +7,6 @@ theme = "PaperMod"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
-  customCSS = ["css/extended/custom-home.css"]
 
   # 首页开启文章显示
   showPosts = true
