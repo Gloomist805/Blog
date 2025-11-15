@@ -8,13 +8,14 @@ theme = "PaperMod"
   disableThemeToggle = false
   ShowPostList = true
   showPostsOnHomePage = true
-  profileModeEnabled = true
+  mainSections = ["posts"]
 
 [params.profileMode]
 enabled = true
 title = "欢迎来到伤心镇"
 subtitle = "Gloomist的博客，记录、随想、求索。"
 showPosts = true   # 显示文章列表
+postAmount = 5
 
 [[menu.main]]
   identifier = "home"
