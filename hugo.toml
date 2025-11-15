@@ -3,54 +3,44 @@ languageCode = "zh-cn"
 title = "一人行者"
 theme = "PaperMod"
 
-  [params]
+[params]
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowShareButtons = true
-  ShowFullTextinRSS = true
 
-  showHomeInfo = true      # 显示欢迎语
-  showPosts = true         # 显示文章列表
-  homePostLimit = 3        # 只显示最新3篇文章
+  # 首页开启文章显示
+  showPosts = true
+  homePostLimit = 3
 
 [params.profileMode]
-enabled = true
-title = "欢迎来到伤心镇"
-subtitle = "Gloomist的博客，记录、随想、求索。"
-showPosts = true   # 显示文章列表
-postAmount = 5
+  enabled = true
+  title = "欢迎来到伤心镇"
+  subtitle = "Gloomist的博客，记录、随想、求索。"
+  buttons = []
+  showPosts = true
+  postAmount = 3
 
 [[menu.main]]
-  identifier = "home"
   name = "主页"
   url = "/"
   weight = 1
 
 [[menu.main]]
-  identifier = "archives"
   name = "文章"
   url = "/archives/"
   weight = 2
 
 [[menu.main]]
-  identifier = "categories"
   name = "分类"
   url = "/categories/"
   weight = 3
 
 [[menu.main]]
-  identifier = "tags"
   name = "标签"
   url = "/tags/"
   weight = 4
 
 [[menu.main]]
-  identifier = "about"
   name = "关于"
   url = "/about/"
   weight = 5
-
-
