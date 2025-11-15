@@ -1,0 +1,17 @@
+/* 让首页欢迎语整体居中 */
+.home-info {
+    text-align: center;
+    margin-top: 5rem; /* 让它稍微往下 */
+}
+
+    /* 主标题加粗（比默认更粗） */
+    .home-info .title {
+        font-weight: 800; /* 超粗 */
+        font-size: 2.2rem; /* 如果你想更大 */
+    }
+
+    /* 副标题也居中 */
+    .home-info .subtitle {
+        text-align: center;
+        font-size: 1.1rem;
+    }
