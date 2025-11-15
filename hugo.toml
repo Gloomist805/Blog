@@ -3,7 +3,6 @@ languageCode = "zh-cn"
 title = "一人行者"
 theme = "PaperMod"
 
-[params]
   [params]
   defaultTheme = "auto"
   ShowReadingTime = true
