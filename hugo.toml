@@ -17,7 +17,9 @@ imageUrl = ""
 imageWidth = 120
 imageHeight = 120
 imageTitle = ""
+# 让首页显示文章
 showPosts = true
+
 
 
 [[menu.main]]
