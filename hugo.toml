@@ -6,6 +6,11 @@ theme = "PaperMod"
 [params]
   defaultTheme = "auto"
   disableThemeToggle = false
+  ShowPostList = true
+
+[params.homeInfoParams]
+  Title = "欢迎来到伤心镇"
+  Content = "Gloomist的博客，记录、随想、求索。"
 
 [[menu.main]]
   identifier = "home"
