@@ -1,17 +1,18 @@
-/* 让首页欢迎语整体居中 */
-.home-info {
+/* 首页欢迎语居中和加粗 */
+.home-info .title {
     text-align: center;
-    margin-top: 5rem; /* 让它稍微往下 */
+    font-weight: 800; /* 更粗 */
+    font-size: 2.2rem; /* 更大 */
 }
 
-    /* 主标题加粗（比默认更粗） */
-    .home-info .title {
-        font-weight: 800; /* 超粗 */
-        font-size: 2.2rem; /* 如果你想更大 */
-    }
+.home-info .subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+}
 
-    /* 副标题也居中 */
-    .home-info .subtitle {
-        text-align: center;
-        font-size: 1.1rem;
-    }
+/* 让欢迎区整体居中并增加间距 */
+.home-info {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
