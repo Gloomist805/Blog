@@ -13,13 +13,8 @@ theme = "PaperMod"
   homePostLimit = 3
 
 [params.profileMode]
-  enabled = true
-  title = "欢迎来到伤心镇"
-  subtitle = "Gloomist的博客，记录、随想、求索。"
-  buttons = []
-  showPosts = true
-  postAmount = 3
-
+  enabled = false
+ 
 [[menu.main]]
   name = "主页"
   url = "/"
