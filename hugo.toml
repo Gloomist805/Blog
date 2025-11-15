@@ -9,9 +9,16 @@ theme = "PaperMod"
   ShowPostList = true
   showPostsOnHomePage = true
 
-[params.homeInfoParams]
-  Title = "欢迎来到伤心镇"
-  Content = "Gloomist的博客，记录、随想、求索。"
+[params.profileMode]
+enabled = true
+title = "欢迎来到伤心镇"
+subtitle = "Gloomist的博客，记录、随想、求索。"
+imageUrl = ""
+imageWidth = 120
+imageHeight = 120
+imageTitle = ""
+showPosts = true
+
 
 [[menu.main]]
   identifier = "home"
