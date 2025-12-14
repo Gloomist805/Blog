@@ -32,6 +32,7 @@
 - id: code_copied
   translation: "已复制！"
 
-toc:
-  other: "目录"
+- id: toc
+  translation: "目录"
+
 
