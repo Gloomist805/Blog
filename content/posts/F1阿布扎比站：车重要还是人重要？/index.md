@@ -5,8 +5,8 @@ draft: false
 summary: F1阿布扎比站赛后的感想，以及这半年来的观赛中对迈凯伦和维斯塔潘的看法
 tags:
   - F1
-  - 思考
-categories: 观后感
+  - WDC
+categories: 杂谈
 ---
 # 前情提要
 
